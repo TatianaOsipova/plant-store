@@ -1,3 +1,6 @@
+@import "./variables";
+@import "./header";
+
 *,
 *::after,
 *::before {
@@ -40,35 +43,18 @@ button {
     height: 63px;
     left: 1180px;
     top: 40px;
-    background: #081800;
-    box-shadow: 8px 8px 0px #51C815;
+    background: $primaryBtn;
+    box-shadow: $btnShadow;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
 }
 
-// styling header start
 
-.header__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    &__menu{
-    display: flex;
-    justify-content: space-between;
-}
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    &__list{
-    padding-right: 45px;    
-}
 
-.menu__btn{
-    margin-left: 35px;
-}
+
+
 
 
 
