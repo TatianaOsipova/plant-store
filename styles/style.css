@@ -35,9 +35,26 @@ body {
   margin: 0 auto;
 }
 
+button {
+  width: 153px;
+  height: 63px;
+  left: 1180px;
+  top: 40px;
+  background: #081800;
+  box-shadow: 8px 8px 0px #51C815;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .header__content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -47,12 +64,10 @@ body {
   justify-content: space-between;
 }
 
-button {
-  width: 153px;
-  height: 63px;
-  left: 1180px;
-  top: 40px;
-  background: #081800;
-  box-shadow: 8px 8px 0px #51C815;
-  color: #fff;
+.menu__list {
+  padding-right: 45px;
+}
+
+.menu__btn {
+  padding-left: 35px;
 }/*# sourceMappingURL=style.css.map */

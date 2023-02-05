@@ -35,21 +35,6 @@ body {
     margin: 0 auto;
 }
 
-// styling header start
-
-.header__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 button {
     width: 153px;
     height: 63px;
@@ -60,7 +45,30 @@ button {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-
 }
 
-// styling header end
+// styling header start
+
+.header__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__list{
+    padding-right: 45px;    
+}
+
+.menu__btn{
+    margin-left: 35px;
+}
+
+
+
