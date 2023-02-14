@@ -1,0 +1,25 @@
+.header__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .header__menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 63px;
+        justify-content: space-between;
+        .menu{
+            display: flex;
+            justify-content: space-between;            
+            .menu__list{
+                padding-right: 45px;
+                color: $colorNav;
+                opacity: $navOpacity;
+                &:hover{
+                    color: $primaryColor;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
