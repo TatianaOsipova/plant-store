@@ -339,6 +339,10 @@ a {
   text-decoration: none;
 }
 
+header {
+  padding-top: 40px;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 10px;
@@ -365,15 +369,29 @@ a {
   padding-right: 45px;
   color: #101C02;
   opacity: 0.5;
+  transition: 0.5s ease-in;
 }
 .header__content .header__menu .menu .menu__list:hover {
   color: #418A1C;
   opacity: 1;
+  transition: 0.5s ease-in;
+}
+.header__content .header__menu .menu__btn {
+  margin-left: 35px;
+  transition: 0.5s ease-in;
+}
+.header__content .header__menu .menu__btn:hover {
+  background-color: #51C815;
+  box-shadow: 8px 8px 0px #081800;
+  border: #51C815;
+  transition: 0.5s ease-in;
 }
 
 button {
   padding: 20px 30px 20px 30px;
-  background: #081800;
+  background-color: #081800;
   box-shadow: 8px 8px 0px #51C815;
   color: #fff;
+  font-size: 18px;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,4 @@
+
 .header__content{
     display: flex;
     flex-wrap: wrap;
@@ -15,10 +16,22 @@
                 padding-right: 45px;
                 color: $colorNav;
                 opacity: $navOpacity;
+                transition: .5s ease-in; 
                 &:hover{
                     color: $primaryColor;
                     opacity: 1;
+                    transition: .5s ease-in;
                 }
+            }
+        }
+        .menu__btn{
+            margin-left: 35px;
+            transition: .5s ease-in;
+            &:hover{
+                background-color: #51C815;
+                box-shadow: 8px 8px 0px #081800;
+                border: #51C815;
+                transition: .5s ease-in;
             }
         }
     }

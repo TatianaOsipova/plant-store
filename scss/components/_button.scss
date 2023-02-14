@@ -1,7 +1,8 @@
 button{
     padding: 20px 30px 20px 30px;
-    background: $backgroundBtn;
+    background-color: $backgroundBtn;
     box-shadow: $shadowBtn;
     color: #fff;
-
+    font-size: $fontSize;
+    font-weight: $fontWeight;
 }
