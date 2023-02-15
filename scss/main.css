@@ -395,4 +395,23 @@ header {
   color: #418A1C;
   opacity: 1;
   transition: 0.3s ease-in;
+}
+
+main {
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+main .main__content {
+  padding-top: 87px;
+}
+main .main__content .main__title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #081800;
+}
+main .main__content .main__title span {
+  font-size: 80px;
+  font-weight: 800;
+  color: #418A1C;
 }/*# sourceMappingURL=main.css.map */
