@@ -308,6 +308,22 @@ template {
   display: none;
 }
 
+button {
+  padding: 20px 30px 20px 30px;
+  background-color: #081800;
+  box-shadow: 8px 8px 0px #51C815;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+button:hover {
+  display: inline-block;
+  background-color: #51C815;
+  box-shadow: none;
+  border: none;
+  transition: 0.3s ease-in;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -378,24 +394,5 @@ header {
   display: block;
   color: #418A1C;
   opacity: 1;
-  transition: 0.3s ease-in;
-}
-.header__content .header__menu .menu__btn {
-  transition: 0.3s ease-in;
-}
-
-button {
-  padding: 20px 30px 20px 30px;
-  background-color: #081800;
-  box-shadow: 8px 8px 0px #51C815;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-}
-button:hover {
-  display: inline-block;
-  background-color: #51C815;
-  box-shadow: none;
-  border: none;
   transition: 0.3s ease-in;
 }/*# sourceMappingURL=main.css.map */
