@@ -1,9 +1,9 @@
-main {
+.main {
     margin-bottom: 130px;
     display: flex;
     justify-content: space-between;
 
-    .main__img {
+    &__img {
         min-height: 840px;
         // padding: 0 17px 30px 53px;
         // width: 100%;
@@ -13,7 +13,7 @@ main {
         z-index: 0;
     }
 
-    .main__title {
+    &__title {
         transform: translateX(-22%);
         z-index: 10;
         font-size: 60px;
@@ -29,10 +29,10 @@ main {
         }
     }
 
-    .main__content {
+    &__content {
         max-width: 528px;
 
-        .main__text {
+        &-text {
             color: $colorText;
             opacity: $textOpacity;
             line-height: 1.6;
@@ -45,19 +45,19 @@ main {
             padding-top: 74px;
             // margin-top: 74px;
 
-            .main__info-item {
+            &-item {
                 font-size: 43px;
                 font-weight: 700;
                 color: $primaryColor;
-                // line-height: 1.6;
+                // line-height: 1.6;                
+            }
 
-                .main__info-text {
-                    font-size: 18px;
-                    font-weight: 600;
-                    color: $colorText;
-                    opacity: $infoTextOpacity;
-                    padding-right: 102px;
-                }
+            &-text {
+                font-size: 18px;
+                font-weight: 600;
+                color: $colorText;
+                opacity: $infoTextOpacity;
+                padding-right: 102px;
             }
         }
     }

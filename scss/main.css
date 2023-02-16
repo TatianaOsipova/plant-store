@@ -398,18 +398,18 @@ header {
   transition: 0.3s ease-in;
 }
 
-main {
+.main {
   margin-bottom: 130px;
   display: flex;
   justify-content: space-between;
 }
-main .main__img {
+.main__img {
   min-height: 840px;
   background-color: #F7FFEC;
   transform: translate(34%, -13%);
   z-index: 0;
 }
-main .main__title {
+.main__title {
   transform: translateX(-22%);
   z-index: 10;
   font-size: 60px;
@@ -417,31 +417,31 @@ main .main__title {
   color: #081800;
   margin-top: 79px;
 }
-main .main__title span {
+.main__title span {
   font-size: 80px;
   font-weight: 800;
   color: #418A1C;
 }
-main .main__content {
+.main__content {
   max-width: 528px;
 }
-main .main__content .main__text {
+.main__content-text {
   color: #081800;
   opacity: 0.6;
   line-height: 1.6;
   padding-bottom: 45px;
 }
-main .main__content .main__info {
+.main__content .main__info {
   display: flex;
   justify-content: flex-start;
   padding-top: 74px;
 }
-main .main__content .main__info .main__info-item {
+.main__content .main__info-item {
   font-size: 43px;
   font-weight: 700;
   color: #418A1C;
 }
-main .main__content .main__info .main__info-item .main__info-text {
+.main__content .main__info-text {
   font-size: 18px;
   font-weight: 600;
   color: #081800;
@@ -453,33 +453,33 @@ main .main__content .main__info .main__info-item .main__info-text {
   padding-bottom: 130px;
   min-height: 577px;
 }
-.lungs .lungs__content {
+.lungs__content {
   display: flex;
   justify-content: space-between;
   gap: 60px;
 }
-.lungs .lungs__content .lungs__left {
+.lungs__content .lungs__left {
   max-width: 584px;
 }
-.lungs .lungs__content .lungs__left .lungs__title {
+.lungs__content .lungs__left-title {
   margin-top: 0;
   font-size: 57px;
   font-weight: 800;
   line-height: 1.4;
   margin-bottom: 60px;
 }
-.lungs .lungs__content .lungs__left .lungs__img {
+.lungs__content .lungs__left-img {
   background-color: #F7FFEC;
   padding: 57px 45px 55px 49px;
 }
-.lungs .lungs__content .lungs__right {
+.lungs__content .lungs__right {
   max-width: 436px;
 }
-.lungs .lungs__content .lungs__right .lungs__img-right {
+.lungs__content .lungs__right-img {
   background-color: #F7FFEC;
   padding: 15px 27px 2px 26px;
 }
-.lungs .lungs__content .lungs__right .lungs__text {
+.lungs__content .lungs__right-text {
   padding-top: 42px;
   margin-bottom: 30px;
   opacity: 0.6;

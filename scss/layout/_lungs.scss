@@ -2,7 +2,7 @@
     padding-bottom: 130px;
     min-height: 577px;
 
-    .lungs__content {
+    &__content {
         display: flex;
         justify-content: space-between;
         gap: 60px;
@@ -10,7 +10,7 @@
         .lungs__left {
             max-width: 584px;
 
-            .lungs__title {
+            &-title {
                 margin-top: 0;
                 font-size: 57px;
                 font-weight: 800;
@@ -18,7 +18,7 @@
                 margin-bottom: 60px;
             }
 
-            .lungs__img {
+            &-img {
                 background-color: $background;
                 padding: 57px 45px 55px 49px;
             }
@@ -27,12 +27,12 @@
         .lungs__right {
             max-width: 436px;
 
-            .lungs__img-right {
+            &-img{
                 background-color: $background;
                 padding: 15px 27px 2px 26px;
             }
 
-            .lungs__text {
+            &-text {
                 padding-top: 42px;
                 margin-bottom: 30px;
                 opacity: $textOpacity;
