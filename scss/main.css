@@ -451,6 +451,7 @@ main .main__content .main__info .main__info-item .main__info-text {
 
 .lungs {
   padding-bottom: 130px;
+  min-height: 577px;
 }
 .lungs .lungs__content {
   display: flex;
@@ -461,22 +462,26 @@ main .main__content .main__info .main__info-item .main__info-text {
   max-width: 584px;
 }
 .lungs .lungs__content .lungs__left .lungs__title {
+  margin-top: 0;
   font-size: 57px;
   font-weight: 800;
   line-height: 1.4;
+  margin-bottom: 60px;
 }
 .lungs .lungs__content .lungs__left .lungs__img {
   background-color: #F7FFEC;
-  padding: 57px 45px 41px 49px;
+  padding: 57px 45px 50px 49px;
 }
 .lungs .lungs__content .lungs__right {
   max-width: 436px;
 }
 .lungs .lungs__content .lungs__right .lungs__img-right {
   background-color: #F7FFEC;
-  padding: 9px 27px 8px 26px;
+  padding: 15px 27px 2px 26px;
 }
 .lungs .lungs__content .lungs__right .lungs__text {
   padding-top: 42px;
+  margin-bottom: 30px;
   opacity: 0.6;
+  line-height: 1.6;
 }/*# sourceMappingURL=main.css.map */

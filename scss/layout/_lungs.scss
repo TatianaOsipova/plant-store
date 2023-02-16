@@ -1,5 +1,6 @@
 .lungs {
     padding-bottom: 130px;
+    min-height: 577px;
 
     .lungs__content {
         display: flex;
@@ -10,28 +11,32 @@
             max-width: 584px;
 
             .lungs__title {
+                margin-top: 0;
                 font-size: 57px;
                 font-weight: 800;
                 line-height: 1.4;
-                // padding-bottom: 60px;
+                margin-bottom: 60px;
             }
 
             .lungs__img {
                 background-color: $background;
-                padding: 57px 45px 41px 49px;
+                padding: 57px 45px 50px 49px;
             }
         }
 
         .lungs__right {
             max-width: 436px;
-            .lungs__img-right{
+
+            .lungs__img-right {
                 background-color: $background;
-                padding: 9px 27px 8px 26px;
-                // margin-bottom: 42px;
+                padding: 15px 27px 2px 26px;
             }
-            .lungs__text{
+
+            .lungs__text {
                 padding-top: 42px;
+                margin-bottom: 30px;
                 opacity: $textOpacity;
+                line-height: 1.6;
             }
         }
     }
