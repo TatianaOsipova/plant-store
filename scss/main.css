@@ -370,6 +370,9 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.header__content .logo {
+  z-index: 5;
+}
 .header__content .header__menu {
   display: flex;
   justify-content: space-between;
@@ -400,23 +403,23 @@ main {
   display: flex;
   justify-content: space-between;
 }
-main .main__content {
-  padding-top: 87px;
+main .main__img {
+  background-color: #F7FFEC;
+  transform: translateY(-17%);
+  z-index: 0;
 }
-main .main__content .main__title {
-  max-width: 715px;
+main .main__title {
   font-size: 60px;
   font-weight: 800;
   color: #081800;
   padding-bottom: 36px;
 }
-main .main__content .main__title span {
+main .main__title span {
   font-size: 80px;
   font-weight: 800;
   color: #418A1C;
 }
 main .main__content .main__text {
-  max-width: 528px;
   color: #081800;
   line-height: 1.6;
 }

@@ -3,6 +3,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    .logo {
+        z-index: 5;
+    }
+
     .header__menu {
         display: flex;
         justify-content: space-between;
