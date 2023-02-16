@@ -405,7 +405,6 @@ main {
 }
 main .main__img {
   min-height: 840px;
-  max-width: 739px;
   background-color: #F7FFEC;
   transform: translate(34%, -13%);
   z-index: 0;
@@ -416,7 +415,7 @@ main .main__title {
   font-size: 60px;
   font-weight: 800;
   color: #081800;
-  padding-bottom: 36px;
+  margin-top: 87px;
 }
 main .main__title span {
   font-size: 80px;
