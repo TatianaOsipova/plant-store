@@ -3,12 +3,12 @@ main {
     display: flex;
     justify-content: space-between;
 
-    .main__img{
+    .main__img {
         min-height: 840px;
         max-width: 739px;
-        background-color: $background;   
-        transform: translate(34%, -13%);    
-        z-index: 0; 
+        background-color: $background;
+        transform: translate(34%, -13%);
+        z-index: 0;
     }
 
     .main__title {
@@ -25,7 +25,6 @@ main {
             color: $primaryColor;
         }
     }
-
 
     .main__content {
         max-width: 528px;
