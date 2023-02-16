@@ -5,12 +5,17 @@ button{
     color: #fff;
     font-size: $fontSize;
     font-weight: $fontWeight;
-    &:hover{        
-        display: inline-block;                
-        background-color: #51C815;
-        box-shadow: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+    &:hover{ 
+        color: $primaryColor;   
+        transition: .3s ease-in;    
+        // display: inline-block;                
+        // background-color: #51C815;
+        // box-shadow: none;
         // box-shadow: 8px 8px 0px #081800;
-        border: none;
-        transition: .3s ease-in;
+        // border: none;
+        // cursor: pointer;
+        // transition: .3s ease-in;
     }
 }

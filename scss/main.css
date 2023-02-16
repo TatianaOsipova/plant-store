@@ -315,12 +315,11 @@ button {
   color: #fff;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease-in;
 }
 button:hover {
-  display: inline-block;
-  background-color: #51C815;
-  box-shadow: none;
-  border: none;
+  color: #418A1C;
   transition: 0.3s ease-in;
 }
 
@@ -357,6 +356,7 @@ a {
 
 header {
   padding-top: 40px;
+  min-height: 63px;
 }
 
 .container {
@@ -372,25 +372,23 @@ header {
 }
 .header__content .header__menu {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 63px;
   justify-content: space-between;
 }
-.header__content .header__menu .menu {
+.header__content .header__menu .nav__menu-list {
   display: flex;
   justify-content: space-between;
 }
-.header__content .header__menu .menu .menu__list {
+.header__content .header__menu .nav__menu-list .nav__menu-item {
   padding-right: 45px;
   color: #101C02;
   opacity: 0.5;
+  cursor: pointer;
   transition: 0.3s ease-in;
 }
-.header__content .header__menu .menu .menu__list:last-child {
+.header__content .header__menu .nav__menu-list .nav__menu-item:last-child {
   padding-right: 80px;
 }
-.header__content .header__menu .menu .menu__list:hover {
+.header__content .header__menu .nav__menu-list .nav__menu-item:hover {
   display: block;
   color: #418A1C;
   opacity: 1;
@@ -406,12 +404,35 @@ main .main__content {
   padding-top: 87px;
 }
 main .main__content .main__title {
+  max-width: 715px;
   font-size: 60px;
   font-weight: 800;
   color: #081800;
+  padding-bottom: 36px;
 }
 main .main__content .main__title span {
   font-size: 80px;
   font-weight: 800;
   color: #418A1C;
+}
+main .main__content .main__text {
+  max-width: 528px;
+  color: #081800;
+  line-height: 1.6;
+}
+main .main__content .main__info {
+  display: flex;
+  justify-content: flex-start;
+}
+main .main__content .main__info .main__info-item {
+  font-size: 43px;
+  font-weight: 700;
+  color: #418A1C;
+  line-height: 1.6;
+}
+main .main__content .main__info .main__info-item .main__info-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #081800;
+  padding-right: 102px;
 }/*# sourceMappingURL=main.css.map */
