@@ -1,0 +1,25 @@
+.initiative {
+    padding-bottom: 130px;
+    min-height: 637px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    &__left {}
+    &__left-img {}
+    &__left-list {}
+    &__left-item {}
+    &__right {}
+    &__right-title {
+        font-size: 57px;
+        font-weight: 800;
+        line-height: 1.4;
+    }
+    &__right-img {
+        background-color: $background;
+        padding: 31px 65px 32px 64px;
+    }
+  }
+  
+  

@@ -484,4 +484,23 @@ header {
   margin-bottom: 30px;
   opacity: 0.6;
   line-height: 1.6;
+}
+
+.initiative {
+  padding-bottom: 130px;
+  min-height: 637px;
+}
+.initiative__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.initiative__right-title {
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.initiative__right-img {
+  background-color: #F7FFEC;
+  padding: 31px 65px 32px 64px;
 }/*# sourceMappingURL=main.css.map */
