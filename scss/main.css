@@ -447,4 +447,36 @@ main .main__content .main__info .main__info-item .main__info-text {
   color: #081800;
   opacity: 0.7;
   padding-right: 102px;
+}
+
+.lungs {
+  padding-bottom: 130px;
+}
+.lungs .lungs__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.lungs .lungs__content .lungs__left {
+  max-width: 584px;
+}
+.lungs .lungs__content .lungs__left .lungs__title {
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.lungs .lungs__content .lungs__left .lungs__img {
+  background-color: #F7FFEC;
+  padding: 57px 45px 41px 49px;
+}
+.lungs .lungs__content .lungs__right {
+  max-width: 436px;
+}
+.lungs .lungs__content .lungs__right .lungs__img-right {
+  background-color: #F7FFEC;
+  padding: 9px 27px 8px 26px;
+}
+.lungs .lungs__content .lungs__right .lungs__text {
+  padding-top: 42px;
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */
