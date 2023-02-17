@@ -571,11 +571,16 @@ header {
   justify-content: space-between;
   flex-direction: column;
   background-color: #F7FFEC;
-  row-gap: 24px;
+  margin-bottom: 40px;
+  min-width: 528px;
+}
+.great__left-cards .img {
+  margin: 29px 47px 28px 41px;
 }
 .great__left-cards .inner {
   display: flex;
   flex-direction: column;
+  padding-right: 47px;
 }
 .great__left-cards .title {
   font-size: 32px;
@@ -637,6 +642,11 @@ header {
   line-height: 1.6;
   color: #101C02;
   opacity: 0.6;
+}
+.great .great__right-card .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #418A1C;
 }
 .great__btn {
   margin-top: 38px;

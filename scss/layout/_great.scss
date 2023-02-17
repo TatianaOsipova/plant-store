@@ -13,12 +13,22 @@
             justify-content: space-between;
             flex-direction: column;
             background-color: $background;
-            row-gap: 24px;
+            // row-gap: 24px;
+            margin-bottom: 40px;
+            min-width: 528px;
+
+            .img{
+                // padding-right: 42px;
+                margin: 29px 47px 28px 41px;
+                
+
+            }
 
             .inner {
                 display: flex;
                 // justify-content: space-between;
                 flex-direction: column;
+                padding-right: 47px;
             }
 
             .title {
@@ -44,6 +54,9 @@
             &-card {
                 display: flex;
                 justify-content: space-between;
+                
+                // padding: 29px 47px 28px 41px;
+                
             }
 
             .block {
