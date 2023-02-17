@@ -41,8 +41,8 @@
 
     &__right {
         &-title {
-            font-size: 57px;
-            font-weight: 800;
+            font-size: $titleSize;
+            font-weight: $titleWeight;
             line-height: 1.4;
             margin-top: 0;
         }

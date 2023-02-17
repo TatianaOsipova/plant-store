@@ -10,9 +10,11 @@
     .video__left{
         // width: 499px;
         &-title{
-            font-size: 57px;
-            font-weight: 800;
+            margin-top: 0;
+            font-size: $titleSize;
+            font-weight: $titleWeight;
             line-height: 1.4;
+            margin-bottom: 60px;
         }
         &-img{
             background-color: $background;
@@ -24,6 +26,12 @@
         &-img{
             background-color: $background;
             padding: 40px 55px 39px 54px;
+        }
+        &-text{
+            color: $colorText;
+            opacity: $textOpacity;
+            line-height: 1.6;
+
         }
     }
 }
