@@ -527,4 +527,12 @@ header {
 .initiative__right-img {
   background-color: #F7FFEC;
   padding: 31px 65px 32px 64px;
+}
+
+.video {
+  padding-bottom: 130px;
+}
+.video__content {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
