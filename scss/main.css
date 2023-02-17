@@ -570,23 +570,26 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.great__left-cards .inner {
+  display: flex;
+  flex-direction: column;
+}
 .great .great__right-title {
   font-size: 57px;
   font-weight: 800;
-  line-height: 1.4;
   margin-top: 0;
 }
 .great .great__right-card {
   display: flex;
   justify-content: space-between;
   background-color: #F7FFEC;
-  height: 256px;
 }
 .great .great__right-card .img {
   padding-right: 42px;
 }
 .great .great__right-card .inner {
   flex-direction: column;
+  padding-right: 47px;
 }
 .great .great__right-card .title {
   font-size: 32px;
