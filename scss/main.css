@@ -569,10 +569,44 @@ header {
 .great__left-cards {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  background-color: #F7FFEC;
+  row-gap: 24px;
 }
 .great__left-cards .inner {
   display: flex;
   flex-direction: column;
+}
+.great__left-cards .title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #081800;
+}
+.great__left-cards .text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #101C02;
+  opacity: 0.6;
+}
+.great__left-cards .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #418A1C;
+}
+.great__left-cards-card {
+  display: flex;
+  justify-content: space-between;
+}
+.great__left-cards .block {
+  display: flex;
+  justify-content: space-between;
+}
+.great__left-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #101C02;
+  opacity: 0.6;
 }
 .great .great__right-title {
   font-size: 57px;
