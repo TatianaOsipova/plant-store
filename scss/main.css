@@ -537,9 +537,6 @@ header {
   justify-content: space-between;
   gap: 60px;
 }
-.video .video__left {
-  width: 499px;
-}
 .video .video__left-title {
   font-size: 57px;
   font-weight: 800;
