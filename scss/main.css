@@ -535,4 +535,21 @@ header {
 .video__content {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
+}
+.video .video__left {
+  width: 499px;
+}
+.video .video__left-title {
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+.video .video__left-img {
+  background-color: #F7FFEC;
+  padding: 48px 74px 51px 74px;
+}
+.video .video__right-img {
+  background-color: #F7FFEC;
+  padding: 40px 55px 39px 54px;
 }/*# sourceMappingURL=main.css.map */
