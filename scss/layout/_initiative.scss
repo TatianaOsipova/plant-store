@@ -1,25 +1,55 @@
 .initiative {
     padding-bottom: 130px;
     min-height: 637px;
+
     &__content {
         display: flex;
         justify-content: space-between;
         gap: 60px;
     }
-    &__left {}
-    &__left-img {}
-    &__left-list {}
-    &__left-item {}
-    &__right {}
-    &__right-title {
-        font-size: 57px;
-        font-weight: 800;
-        line-height: 1.4;
+
+    &__left {
+        &-img {
+            background-color: $background;
+            padding: 31px 65px 32px 64px;
+            margin-bottom: 60px;
+        }
     }
-    &__right-img {
-        background-color: $background;
-        padding: 31px 65px 32px 64px;
+
+
+    .initiative__left-item {
+        position: relative;
+        font-size: $fontSize;
+        font-weight: $fontWeight;
+        line-height: 1.6;
+        color: $colorText;
+        opacity: $textOpacity;  
+        padding-left: 66px; 
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../../img/decor.jpg);
+            width: 40px;
+            height: 40px;
+            top: 0;
+            left: 0;
+            
+        }     
+
+        
     }
-  }
-  
-  
+
+    &__right {
+        &-title {
+            font-size: 57px;
+            font-weight: 800;
+            line-height: 1.4;
+            margin-top: 0;
+        }
+
+        &-img {
+            background-color: $background;
+            padding: 31px 65px 32px 64px;
+        }
+    }
+}

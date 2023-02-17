@@ -495,10 +495,34 @@ header {
   justify-content: space-between;
   gap: 60px;
 }
+.initiative__left-img {
+  background-color: #F7FFEC;
+  padding: 31px 65px 32px 64px;
+  margin-bottom: 60px;
+}
+.initiative .initiative__left-item {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #081800;
+  opacity: 0.6;
+  padding-left: 66px;
+}
+.initiative .initiative__left-item::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../img/decor.jpg);
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
 .initiative__right-title {
   font-size: 57px;
   font-weight: 800;
   line-height: 1.4;
+  margin-top: 0;
 }
 .initiative__right-img {
   background-color: #F7FFEC;
