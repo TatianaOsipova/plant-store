@@ -19,16 +19,15 @@
 
             .img{
                 // padding-right: 42px;
-                margin: 29px 47px 28px 41px;
-                
-
+                margin: 29px 0px 28px 41px;
             }
 
             .inner {
                 display: flex;
                 // justify-content: space-between;
                 flex-direction: column;
-                padding-right: 47px;
+                padding-left: 42px;
+                // margin-right: 45px;
             }
 
             .title {
@@ -43,6 +42,7 @@
                 line-height: 1.6;
                 color: $colorNav;
                 opacity: $textOpacity;
+                // margin-right: 45px;
             }
 
             .price{
@@ -91,18 +91,19 @@
             // padding: 40px 47px 35px 23px;
 
             .img {
-                padding-right: 42px;
+                // padding-right: 42px;
+                margin: 40px 43px 33px 23px;
             }
 
             .inner {
                 flex-direction: column;
-                padding-right: 47px;
+                // padding-right: 47px;
             }
 
             .title {
                 font-size: 32px;
                 font-weight: 600;
-                line-height: 1.6;
+                // line-height: 1.6;
                 color: $colorText;
                 // padding-bottom: 15px;
             }
@@ -110,7 +111,7 @@
             .text {
                 font-size: 14px;
                 font-weight: 400;
-                line-height: 1.6;
+                // line-height: 1.6;
                 color: $colorNav;
                 opacity: $textOpacity;
                 // padding-bottom: 20px;
