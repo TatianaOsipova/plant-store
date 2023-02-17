@@ -556,4 +556,48 @@ header {
   color: #081800;
   opacity: 0.6;
   line-height: 1.6;
+}
+
+.great {
+  padding-bottom: 130px;
+}
+.great__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.great__left-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.great .great__right-title {
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-top: 0;
+}
+.great .great__right-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7FFEC;
+  height: 256px;
+}
+.great .great__right-card .img {
+  padding-right: 42px;
+}
+.great .great__right-card .inner {
+  flex-direction: column;
+}
+.great .great__right-card .title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #081800;
+}
+.great .great__right-card .text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #101C02;
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */
