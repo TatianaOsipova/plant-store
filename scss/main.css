@@ -579,10 +579,10 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  background-color: #F7FFEC;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
   margin-bottom: 40px;
   min-width: 528px;
-  gap: 24px;
 }
 .great__left-cards .img {
   margin: 29px 0px 28px 41px;
@@ -596,6 +596,7 @@ header {
   font-size: 32px;
   font-weight: 600;
   color: #081800;
+  padding-top: 40px;
 }
 .great__left-cards .text {
   font-size: 14px;
@@ -603,11 +604,16 @@ header {
   line-height: 1.6;
   color: #101C02;
   opacity: 0.6;
+  margin: 0;
+  padding-top: 15px;
 }
 .great__left-cards .price {
   font-size: 24px;
   font-weight: 700;
   color: #418A1C;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 38px;
 }
 .great__left-cards-card {
   display: flex;
@@ -616,6 +622,7 @@ header {
 .great__left-cards .block {
   display: flex;
   justify-content: space-between;
+  background-color: #F7FFEC;
 }
 .great__left-text {
   font-size: 18px;
@@ -639,22 +646,28 @@ header {
 }
 .great .great__right-card .inner {
   flex-direction: column;
+  padding-right: 47px;
 }
 .great .great__right-card .title {
   font-size: 32px;
   font-weight: 600;
+  padding-top: 40px;
   color: #081800;
 }
 .great .great__right-card .text {
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.6;
   color: #101C02;
   opacity: 0.6;
+  margin: 0;
 }
 .great .great__right-card .price {
   font-size: 24px;
   font-weight: 700;
   color: #418A1C;
+  margin: 0;
+  padding-bottom: 35px;
 }
 .great__btn {
   margin-top: 38px;
