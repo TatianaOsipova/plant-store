@@ -550,9 +550,13 @@ header {
 }
 .video .video__right-img {
   background-color: #F7FFEC;
-  padding: 40px 0px 39px 54px;
+  margin: 0;
+  padding: 0;
+  padding-left: 54px;
 }
 .video .video__right-text {
+  margin: 0;
+  padding-top: 40px;
   color: #081800;
   opacity: 0.6;
   line-height: 1.6;

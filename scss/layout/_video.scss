@@ -1,37 +1,44 @@
-.video{
+.video {
     padding-bottom: 130px;
-    &__content{
+
+    &__content {
         display: flex;
         justify-content: space-between;
         gap: 60px;
-        
+
 
     }
-    .video__left{
+
+    .video__left {
         // width: 499px;
-        &-title{
+        &-title {
             margin-top: 0;
             font-size: $titleSize;
             font-weight: $titleWeight;
             line-height: 1.4;
             margin-bottom: 60px;
         }
-        &-img{
+
+        &-img {
             background-color: $background;
             padding: 48px 74px 51px 74px;
         }
     }
 
-    .video__right{
-        &-img{
-            background-color: $background;            
-            padding: 40px 0px 39px 54px;
+    .video__right {
+        &-img {
+            background-color: $background;
+            margin: 0;
+            padding: 0;
+            padding-left: 54px;          
         }
-        &-text{
+
+        &-text {
+            margin: 0;
+            padding-top: 40px;
             color: $colorText;
             opacity: $textOpacity;
             line-height: 1.6;
-
         }
     }
 }
