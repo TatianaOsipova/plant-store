@@ -354,6 +354,11 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   padding-top: 40px;
   min-height: 63px;
@@ -577,6 +582,7 @@ header {
   background-color: #F7FFEC;
   margin-bottom: 40px;
   min-width: 528px;
+  gap: 24px;
 }
 .great__left-cards .img {
   margin: 29px 0px 28px 41px;
@@ -621,6 +627,7 @@ header {
   font-size: 57px;
   font-weight: 800;
   margin-top: 0;
+  padding-bottom: 60px;
 }
 .great .great__right-card {
   display: flex;
