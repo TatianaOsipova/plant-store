@@ -683,7 +683,14 @@ header {
   opacity: 0.6;
   line-height: 1.6;
 }
-.footer__box .first {
+.footer__box-title {
+  font-size: 18px;
   font-weight: 700;
+  text-transform: uppercase;
+  color: #000A01;
   opacity: 1;
+}
+.footer .social__list {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

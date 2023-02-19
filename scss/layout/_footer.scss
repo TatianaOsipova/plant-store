@@ -17,11 +17,17 @@
             line-height: 1.6;
             
         }
-        .first{
+        &-title{
+            font-size: $fontSize;
             font-weight: $fontWeight;
+            text-transform: uppercase;
+            color: #000A01;
             opacity: 1;
-        }
-        
+        }        
+    }
+    .social__list{
+        display: flex;
+        justify-content: space-between;
     }
 }
 
