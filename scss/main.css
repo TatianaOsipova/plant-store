@@ -581,9 +581,10 @@ header {
   flex-direction: column;
   margin-bottom: 40px;
   min-width: 528px;
+  gap: 24px;
 }
 .great__left-cards .img {
-  margin: 29px 0px 28px 41px;
+  margin: 29px 0px 0px 41px;
 }
 .great__left-cards .inner {
   display: flex;
@@ -612,10 +613,6 @@ header {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 38px;
-}
-.great__left-cards-card {
-  display: flex;
-  justify-content: space-between;
 }
 .great__left-cards .block {
   display: flex;
