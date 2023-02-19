@@ -4,10 +4,22 @@
     &__content {
         display: flex;
         justify-content: space-between;
-        
+        padding-top: 104px;
+        padding-bottom: 104px;
     }
 
     &__box {
+        transform: translateX(-22%);
+
+        &-title {
+            font-size: $fontSize;
+            font-weight: $fontWeight;
+            text-transform: uppercase;
+            color: #000A01;
+            opacity: 1;
+            padding: 0;
+        }
+
         &-list {
             font-size: $fontSize;
             font-weight: 500;
@@ -15,22 +27,29 @@
             color: #000A01;
             opacity: $textOpacity;
             line-height: 1.6;
-            
+            padding: 0;
+
         }
-        &-title{
-            font-size: $fontSize;
-            font-weight: $fontWeight;
-            text-transform: uppercase;
-            color: #000A01;
-            opacity: 1;
-        }        
+
+        &-item {
+            padding: 0;
+            padding-bottom: 15px;
+        }
     }
-    .social__list{
+
+    .social__list {
         display: flex;
         justify-content: space-between;
+        gap: 12px;
+        padding: 0;
+
+        &-link path {
+            transition: fill 0.5s ease-in;
+            &-link:hover path{
+                fill: rgb(4, 16, 252);
+                transition: fill 0.5s ease-in;
+            }
+
+        }
     }
 }
-
-
-
-

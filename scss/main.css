@@ -674,6 +674,19 @@ header {
 .footer__content {
   display: flex;
   justify-content: space-between;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+.footer__box {
+  transform: translateX(-22%);
+}
+.footer__box-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000A01;
+  opacity: 1;
+  padding: 0;
 }
 .footer__box-list {
   font-size: 18px;
@@ -682,15 +695,22 @@ header {
   color: #000A01;
   opacity: 0.6;
   line-height: 1.6;
+  padding: 0;
 }
-.footer__box-title {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #000A01;
-  opacity: 1;
+.footer__box-item {
+  padding: 0;
+  padding-bottom: 15px;
 }
 .footer .social__list {
   display: flex;
   justify-content: space-between;
+  gap: 12px;
+  padding: 0;
+}
+.footer .social__list-link path {
+  transition: fill 0.5s ease-in;
+}
+.footer .social__list-link path-link:hover path {
+  fill: rgb(4, 16, 252);
+  transition: fill 0.5s ease-in;
 }/*# sourceMappingURL=main.css.map */
