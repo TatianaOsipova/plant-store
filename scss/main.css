@@ -579,8 +579,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  -moz-column-gap: 24px;
-       column-gap: 24px;
   margin-bottom: 40px;
   min-width: 528px;
 }
