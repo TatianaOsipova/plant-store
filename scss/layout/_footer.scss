@@ -1,0 +1,30 @@
+.footer {
+    background-color: $background;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__box {
+        &-list {
+            font-size: $fontSize;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #000A01;
+            opacity: $textOpacity;
+            line-height: 1.6;
+            
+        }
+        .first{
+            font-weight: $fontWeight;
+            opacity: 1;
+        }
+        
+    }
+}
+
+
+
+
