@@ -23,9 +23,10 @@
         font-weight: $fontWeight;
         line-height: 1.6;
         color: $colorText;
-        opacity: $textOpacity;  
-        padding-left: 66px; 
-        &::before{
+        opacity: $textOpacity;
+        padding-left: 66px;
+
+        &::before {
             content: '';
             position: absolute;
             background-image: url(../../img/decor.jpg);
@@ -33,10 +34,7 @@
             height: 40px;
             top: 0;
             left: 0;
-            
-        }     
-
-        
+        }
     }
 
     &__right {

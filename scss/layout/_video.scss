@@ -10,7 +10,6 @@
     }
 
     .video__left {
-        // width: 499px;
         &-title {
             margin-top: 0;
             font-size: $titleSize;
@@ -30,7 +29,7 @@
             background-color: $background;
             margin: 0;
             padding: 0;
-            padding-left: 54px;          
+            padding-left: 54px;
         }
 
         &-text {

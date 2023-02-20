@@ -16,18 +16,14 @@
             min-width: 528px;
             gap: 24px;
 
-
             .img {
-                // padding-right: 42px;
                 margin: 29px 0px 0px 41px;
             }
 
             .inner {
                 display: flex;
-                // justify-content: space-between;
                 flex-direction: column;
                 padding-left: 42px;
-                // margin-right: 45px;
             }
 
             .title {
@@ -55,7 +51,7 @@
                 margin: 0;
                 padding-top: 20px;
                 padding-bottom: 38px;
-            }                  
+            }
 
             .block {
                 display: flex;
@@ -86,12 +82,8 @@
             display: flex;
             justify-content: space-between;
             background-color: $background;
-            // width: 528px;
-            // height: 256px;
-            // padding: 40px 47px 35px 23px;
 
             .img {
-                // padding-right: 42px;
                 margin: 40px 43px 33px 23px;
             }
 
@@ -104,7 +96,6 @@
                 font-size: 32px;
                 font-weight: 600;
                 padding-top: 40px;
-                // line-height: 1.6;
                 color: $colorText;
             }
 

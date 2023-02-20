@@ -4,10 +4,7 @@
     justify-content: space-between;
 
     &__img {
-        min-height: 840px;
-        // padding: 0 17px 30px 53px;
-        // width: 100%;
-        // max-width: 739px;
+        min-height: 840px;        
         background-color: $background;
         transform: translate(34%, -13%);
         z-index: 0;
@@ -19,8 +16,7 @@
         font-size: 60px;
         font-weight: $titleWeight;
         color: $colorText;
-        margin-top: 79px;
-        // padding-bottom: 36px;
+        margin-top: 79px;        
 
         span {
             font-size: 80px;
@@ -42,14 +38,12 @@
         .main__info {
             display: flex;
             justify-content: flex-start;
-            padding-top: 74px;
-            // margin-top: 74px;
+            padding-top: 74px;            
 
             &-item {
                 font-size: 43px;
                 font-weight: 700;
-                color: $primaryColor;
-                // line-height: 1.6;                
+                color: $primaryColor;                       
             }
 
             &-text {
