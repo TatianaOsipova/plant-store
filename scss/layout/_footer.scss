@@ -1,15 +1,24 @@
 .footer {
     background-color: $background;
+    &__img{
+        z-index: 0;
+        float: right;
+        margin: 0;
+        padding: 0;
+        // padding-left: 931px;
+    }
 
     &__content {
         display: flex;
         justify-content: space-between;
         padding-top: 104px;
-        padding-bottom: 104px;
+        // padding-bottom: 104px;
+        z-index: 10;
     }
 
     &__box {
-        transform: translateX(-22%);
+        // transform: translateX(100%);
+        cursor: pointer;
 
         &-title {
             font-size: $fontSize;
@@ -43,13 +52,12 @@
         gap: 12px;
         padding: 0;
 
-        &-link path {
+        &-link circle {
             transition: fill 0.5s ease-in;
-            &-link:hover path{
+            &-link:hover circle{
                 fill: rgb(4, 16, 252);
                 transition: fill 0.5s ease-in;
             }
-
         }
-    }
+    }    
 }
