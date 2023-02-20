@@ -72,18 +72,17 @@
     .great__right {
         &-title {
             font-size: $titleSize;
-            font-weight: $titleWeight;
-            margin-top: 0;
-            padding-bottom: 60px;
+            font-weight: $titleWeight;            
             padding-top: 20px;
+            padding-bottom: 60px;
         }
 
         &-card {
             display: flex;
             justify-content: space-between;
-            background-color: $background;
+            background-color: $background;            
 
-            .img {
+            .img {                
                 margin: 40px 43px 33px 23px;
             }
 
