@@ -319,7 +319,7 @@ button {
   transition: 0.3s ease-in;
 }
 button:hover {
-  color: #418A1C;
+  color: orange;
   transition: 0.3s ease-in;
 }
 
