@@ -1,23 +1,28 @@
 .footer {
     background-color: $background;
+    min-height: 369px;
+    margin: 0 auto;
+    position: relative;
+    
+    // overflow-x: hidden;
+    
     &__img{
-        z-index: 0;
-        float: right;
-        margin: 0;
-        padding: 0;
-        // padding-left: 931px;
-    }
+        position: absolute;
+        left: 1190px;
+        bottom: 0;
+        // z-index: -1;        
+        // float: right;
+       
+    }    
 
     &__content {
         display: flex;
         justify-content: space-between;
         padding-top: 104px;
-        // padding-bottom: 104px;
-        z-index: 10;
+        padding-bottom: 77px;       
     }
 
     &__box {
-        // transform: translateX(100%);
         cursor: pointer;
 
         &-title {
@@ -51,6 +56,8 @@
         justify-content: space-between;
         gap: 12px;
         padding: 0;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
 
         &-link circle {
             transition: fill 0.5s ease-in;
@@ -59,5 +66,5 @@
                 transition: fill 0.5s ease-in;
             }
         }
-    }    
-}
+    }
+}    

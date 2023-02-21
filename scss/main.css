@@ -697,18 +697,20 @@ header::after {
 
 .footer {
   background-color: #F7FFEC;
+  min-height: 369px;
+  margin: 0 auto;
+  position: relative;
 }
 .footer__img {
-  z-index: 0;
-  float: right;
-  margin: 0;
-  padding: 0;
+  position: absolute;
+  left: 1190px;
+  bottom: 0;
 }
 .footer__content {
   display: flex;
   justify-content: space-between;
   padding-top: 104px;
-  z-index: 10;
+  padding-bottom: 77px;
 }
 .footer__box {
   cursor: pointer;
@@ -739,6 +741,8 @@ header::after {
   justify-content: space-between;
   gap: 12px;
   padding: 0;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 .footer .social__list-link circle {
   transition: fill 0.5s ease-in;
