@@ -21,17 +21,16 @@
         font-size: $fontSize;
         font-weight: $fontWeight;
         line-height: 1.6;
-        color: $colorText;
-        opacity: $textOpacity;
+        color: rgb(8,24,0, 0.6);
         padding-left: 66px;
 
         &::before {
             content: '';
             position: absolute;
-            background-image: url(../../img/decor.jpg);
+            background-image: url(../../img/decor.svg);
             width: 40px;
             height: 40px;
-            top: 0;
+            top: 10px;
             left: 0;
         }
     }

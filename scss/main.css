@@ -535,17 +535,16 @@ header::after {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.6;
-  color: #081800;
-  opacity: 0.6;
+  color: rgba(8, 24, 0, 0.6);
   padding-left: 66px;
 }
 .initiative .initiative__left-item::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/decor.jpg);
+  background-image: url(../../img/decor.svg);
   width: 40px;
   height: 40px;
-  top: 0;
+  top: 10px;
   left: 0;
 }
 .initiative__right-title {
