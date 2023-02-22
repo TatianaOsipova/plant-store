@@ -541,7 +541,7 @@ header::after {
 .initiative .initiative__left-item::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/decor.svg);
+  background-image: url(..//..//img/decor.svg);
   width: 40px;
   height: 40px;
   top: 10px;
