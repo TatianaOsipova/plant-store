@@ -2,17 +2,13 @@
     background-color: $background;
     min-height: 369px;
     margin: 0 auto;
-    position: relative;
-    
-    // overflow-x: hidden;
+    position: relative;   
     
     &__img{
         position: absolute;
         left: 1190px;
         bottom: 0;
-        // z-index: -1;        
-        // float: right;
-       
+        // z-index: -1;            
     }    
 
     &__content {
@@ -49,14 +45,14 @@
             padding-bottom: 15px;
         }
 
-        .social__list {
+        .social {
             display: flex;
             justify-content: space-between;
             gap: 12px;
             padding: 0;
             color: rgb(0, 0, 0);
             
-            &-item a {
+            &__link {
                 cursor: pointer;
             }
         }

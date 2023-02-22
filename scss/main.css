@@ -735,13 +735,13 @@ header::after {
   padding: 0;
   padding-bottom: 15px;
 }
-.footer__box .social__list {
+.footer__box .social {
   display: flex;
   justify-content: space-between;
   gap: 12px;
   padding: 0;
   color: rgb(0, 0, 0);
 }
-.footer__box .social__list-item a {
+.footer__box .social__link {
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
