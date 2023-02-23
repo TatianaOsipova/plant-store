@@ -39,6 +39,12 @@ header {
                 cursor: pointer;
                 transition: .3s ease-in;
 
+                &-first{
+                    color: rgb(65, 138, 28, 1);
+                    padding-right: 45px;
+                  
+                }
+
                 &:last-child {
                     padding-right: 80px;
                 }
@@ -48,9 +54,6 @@ header {
                     color: $primaryColor;
                     opacity: 1;
                     transition: .3s ease-in;
-                }
-                .first{
-                    color: rgb(65, 138, 28, 1);
                 }
             }
         }

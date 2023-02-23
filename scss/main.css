@@ -405,6 +405,10 @@ header::after {
   cursor: pointer;
   transition: 0.3s ease-in;
 }
+.header__menu .nav__menu-list .nav__menu-item-first {
+  color: rgb(65, 138, 28);
+  padding-right: 45px;
+}
 .header__menu .nav__menu-list .nav__menu-item:last-child {
   padding-right: 80px;
 }
@@ -413,9 +417,6 @@ header::after {
   color: #418A1C;
   opacity: 1;
   transition: 0.3s ease-in;
-}
-.header__menu .nav__menu-list .nav__menu-item .first {
-  color: rgb(65, 138, 28);
 }
 
 .main {
