@@ -5,11 +5,10 @@
         display: flex;
         justify-content: space-between;
         gap: 60px;
-
-
     }
 
     .video__left {
+        position: relative;
         &-title {
             margin-top: 0;
             font-size: $titleSize;
@@ -22,7 +21,16 @@
             background-color: $background;
             padding: 48px 74px 51px 74px;
         }
+        .video__play{
+            content: '';
+            position: absolute;
+            z-index: 10;
+            top: 360px;
+            left: 156px;
+            border: none;
+        }
     }
+    
 
     .video__right {
         &-img {
