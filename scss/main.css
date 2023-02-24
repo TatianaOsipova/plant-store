@@ -575,6 +575,14 @@ header::after {
 .video .video__left {
   position: relative;
 }
+.video .video__left .video__play {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 360px;
+  left: 156px;
+  border: none;
+}
 .video .video__left-title {
   margin-top: 0;
   font-size: 57px;
@@ -586,12 +594,15 @@ header::after {
   background-color: #F7FFEC;
   padding: 48px 74px 51px 74px;
 }
-.video .video__left .video__play {
+.video .video__right {
+  position: relative;
+}
+.video .video__right .video__play {
   content: "";
   position: absolute;
   z-index: 10;
-  top: 360px;
-  left: 156px;
+  top: 170px;
+  left: 202px;
   border: none;
 }
 .video .video__right-img {
