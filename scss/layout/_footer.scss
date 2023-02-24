@@ -51,10 +51,11 @@
             gap: 12px;
             padding: 0;
             color: rgb(0, 0, 0);
+            cursor: pointer;
             
-            &__link {
-                cursor: pointer;
-            }
+            // &__link {
+            //     cursor: pointer;
+            // }
         }
     }
 
