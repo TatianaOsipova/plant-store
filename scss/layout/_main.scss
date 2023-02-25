@@ -17,10 +17,13 @@
     }
 
     &__img {
-        // max-height: 840px;  
+        // min-height: 840px;  
         margin: 0;
         padding: 0;    
-        transform: translate(34%, -13%);
+        margin-top: -104px;
+        margin-left: 53px;
+        margin-bottom: 30px;
+        // transform: translate(34%, -13%);
     }
 
     &__title {

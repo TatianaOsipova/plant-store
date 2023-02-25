@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1110px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -440,7 +440,9 @@ header::after {
 .main__img {
   margin: 0;
   padding: 0;
-  transform: translate(34%, -13%);
+  margin-top: -104px;
+  margin-left: 53px;
+  margin-bottom: 30px;
 }
 .main__title {
   transform: translateX(-22%);
@@ -732,7 +734,7 @@ header::after {
   position: absolute;
   left: 1190px;
   bottom: 0;
-  overflow-y: hidden;
+  overflow-inline: hidden;
 }
 .footer__content {
   display: flex;
