@@ -3,9 +3,10 @@
     justify-content: space-between;
     position: relative;
     background-color: white;
-    z-index: 5; 
+    z-index: 5;
     margin: 0;
-    &::after{
+
+    &::after {
         content: '';
         width: 47%;
         height: 91%;
@@ -19,7 +20,7 @@
     &__img {
         // min-height: 840px;  
         margin: 0;
-        padding: 0;    
+        padding: 0;
         // margin-top: -104px;
         // margin-left: 53px;
         // margin-bottom: 30px;
@@ -33,8 +34,8 @@
         font-size: 60px;
         font-weight: $titleWeight;
         color: $colorText;
-        margin-top: 87px;    
-        line-height: 1.3;    
+        margin-top: 87px;
+        line-height: 1.3;
 
         span {
             font-size: 80px;
@@ -52,25 +53,25 @@
             line-height: 1.6;
             padding-bottom: 45px;
         }
+    }
 
-        .main__info {
-            display: flex;
-            justify-content: flex-start;
-            padding-top: 74px;            
+    &__info {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 74px;
 
-            &-item {
-                font-size: 43px;
-                font-weight: 700;
-                color: $primaryColor;                       
-            }
+        &-item {
+            font-size: 43px;
+            font-weight: 700;
+            color: $primaryColor;
+        }
 
-            &-text {
-                font-size: 18px;
-                font-weight: 600;
-                color: $colorText;
-                opacity: $infoTextOpacity;
-                padding-right: 102px;
-            }
+        &-text {
+            font-size: 18px;
+            font-weight: 600;
+            color: $colorText;
+            opacity: $infoTextOpacity;
+            padding-right: 102px;
         }
     }
 }

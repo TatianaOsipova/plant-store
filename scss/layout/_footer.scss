@@ -1,5 +1,5 @@
 .footer {
-    background-color: $background;    
+    background-color: $background;
     margin: 0 auto;
     position: relative;
 
@@ -7,8 +7,8 @@
         position: absolute;
         left: 1190px;
         bottom: 0;
-        // z-index: 1;
-        overflow-inline: hidden;
+        // z-index: 10;
+        // overflow-inline: hidden;
         // transform: matrix(0.99, -0.12, -0.12, -0.99, 0, 0);
     }
 
@@ -22,9 +22,9 @@
     &__box {
         cursor: pointer;
         margin: 0;
-        padding: 0;        
+        padding: 0;
 
-        &-list {          
+        &-list {
             padding: 0;
             margin: 0;
         }
@@ -40,21 +40,21 @@
             margin: 0;
             padding: 0;
             padding-bottom: 15px;
+
+            &:first-child {
+                font-size: $fontSize;
+                font-weight: $fontWeight;
+                text-transform: uppercase;
+                color: #000A01;
+                opacity: 1;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
         }
 
-        &-item:first-child {
-            font-size: $fontSize;
-            font-weight: $fontWeight;
-            text-transform: uppercase;
-            color: #000A01;
-            opacity: 1;
-        }
-
-        &-item:last-child {
-            padding-bottom: 0;
-        }  
-        
-        &-title{
+        &-title {
             font-size: $fontSize;
             font-weight: $fontWeight;
             text-transform: uppercase;
@@ -64,15 +64,17 @@
             padding-top: 3px;
         }
 
-        .social {
-            display: flex;
-            justify-content: space-between;
-            gap: 12px;
-            padding: 0;
-            color: rgb(0, 0, 0);
-            cursor: pointer;
-            padding-right: 53px;
-            margin: 0;
-        }       
+        
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 0;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        padding-right: 53px;
+        margin: 0;
     }
 }

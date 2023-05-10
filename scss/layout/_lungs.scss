@@ -7,43 +7,38 @@
         display: flex;
         justify-content: space-between;
         gap: 60px;
+    }
 
-        .lungs__left {
-            max-width: 584px;
+    &__left {
+        max-width: 584px;
 
-            &-title {
-                margin-top: 0;
-                font-size: $titleSize;
-                font-weight: $titleWeight;
-                line-height: 1.4;
-                margin-bottom: 60px;
-            }
-
-            &-img {
-                background-color: $background;
-                padding: 57px 45px 55px 49px;
-            }
+        &__left-title {
+            margin-top: 0;
+            font-size: $titleSize;
+            font-weight: $titleWeight;
+            line-height: 1.4;
+            margin-bottom: 60px;
         }
 
-        .lungs__right {
-            max-width: 436px;
+        &__left-img {
+            background-color: $background;
+            padding: 57px 45px 55px 49px;
+        }
+    }
 
-            &-img {
-                background-color: $background;
-                padding: 15px 27px 2px 26px;
-            }
+    &__right {
+        max-width: 436px;
 
-            &-text {
-                padding-top: 42px;
-                margin-bottom: 30px;
-                opacity: $textOpacity;
-                line-height: 1.6;
-            }
+        &__rignt-img {
+            background-color: $background;
+            padding: 15px 27px 2px 26px;
+        }
+
+        &__right-text {
+            padding-top: 42px;
+            margin-bottom: 30px;
+            opacity: $textOpacity;
+            line-height: 1.6;
         }
     }
 }
-
-
-
-
-
