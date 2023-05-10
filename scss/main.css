@@ -552,10 +552,15 @@ header::after {
     margin-bottom: 37px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .lungs {
     padding: 50px 0;
   }
+  .lungs__content {
+    gap: 40px;
+  }
+}
+@media (max-width: 650px) {
   .lungs__content {
     display: flex;
     flex-wrap: wrap;
@@ -619,6 +624,16 @@ header::after {
   padding: 31px 65px 32px 64px;
 }
 
+@media (max-width: 1080px) {
+  .initiative__right-title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .lungs__left-title {
+    font-size: 45px;
+  }
+}
 .video {
   padding-bottom: 130px;
 }

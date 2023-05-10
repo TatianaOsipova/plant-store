@@ -50,3 +50,23 @@
         }
     }
 }
+
+// media
+
+@media (max-width: 1080px) {
+    .initiative {
+        &__right-title{
+            font-size: 50px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .lungs {
+        &__left-title {
+            font-size: 45px;
+        }
+    }
+}
+
+@import '../layout/media';

@@ -43,6 +43,8 @@
     }
 }
 
+// media
+
 @media (max-width: 1080px) {
     .lungs {
         &__left-title {
@@ -71,9 +73,18 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
     .lungs {
         padding: 50px 0;
+
+        &__content {
+            gap: 40px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .lungs {
         &__content {
             display: flex;
             flex-wrap: wrap;
