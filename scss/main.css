@@ -802,4 +802,10 @@ header::after {
   cursor: pointer;
   padding-right: 53px;
   margin: 0;
+}
+
+@media (max-width: 940px) {
+  .lungs__content__left-title {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
