@@ -547,6 +547,11 @@ header::after {
     font-size: 45px;
   }
 }
+@media (max-width: 798px) {
+  .lungs__left-title {
+    margin-bottom: 37px;
+  }
+}
 @media (max-width: 650px) {
   .lungs {
     padding: 50px 0;

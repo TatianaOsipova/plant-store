@@ -63,6 +63,14 @@
     }
 }
 
+@media (max-width: 798px) {
+    .lungs {
+        &__left-title {
+            margin-bottom: 37px;
+        }
+    }
+}
+
 @media (max-width: 650px) {
     .lungs {
         padding: 50px 0;
