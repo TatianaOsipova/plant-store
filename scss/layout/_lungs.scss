@@ -12,7 +12,7 @@
     &__left {
         max-width: 584px;
 
-        &__left-title {
+        &-title {
             margin-top: 0;
             font-size: $titleSize;
             font-weight: $titleWeight;
@@ -20,7 +20,7 @@
             margin-bottom: 60px;
         }
 
-        &__left-img {
+        &-img {
             background-color: $background;
             padding: 57px 45px 55px 49px;
         }
@@ -29,12 +29,12 @@
     &__right {
         max-width: 436px;
 
-        &__rignt-img {
+        &-img {
             background-color: $background;
             padding: 15px 27px 2px 26px;
         }
 
-        &__right-text {
+        &-text {
             padding-top: 42px;
             margin-bottom: 30px;
             opacity: $textOpacity;
@@ -42,3 +42,56 @@
         }
     }
 }
+
+@media (max-width: 1080px) {
+    .lungs {
+        &__left-title {
+            font-size: 50px;
+        }
+
+        &__right-text {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .lungs {
+        &__left-title {
+            font-size: 45px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .lungs {
+        padding: 50px 0;
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 10px;
+            gap: 30px;
+        }
+
+        &__left-title {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+
+        &__right {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 419px) {
+    .lungs {
+        &__left-title {
+            font-size: 35px;
+            line-height: 40px;
+        }
+    }
+}
+
+@import '../layout/media';

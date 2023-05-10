@@ -393,25 +393,25 @@ header::after {
   display: flex;
   justify-content: space-between;
 }
-.header__menu .nav__menu-list {
+.header .nav__menu-list {
   display: flex;
   justify-content: space-between;
 }
-.header__menu .nav__menu-list .nav__menu-item {
+.header .nav__menu-item {
   padding-right: 45px;
   color: #101C02;
   opacity: 0.5;
   cursor: pointer;
   transition: 0.3s ease-in;
 }
-.header__menu .nav__menu-list .nav__menu-item-first {
+.header .nav__menu-item-first {
   color: rgb(65, 138, 28);
   padding-right: 45px;
 }
-.header__menu .nav__menu-list .nav__menu-item:last-child {
+.header .nav__menu-item:last-child {
   padding-right: 80px;
 }
-.header__menu .nav__menu-list .nav__menu-item:hover {
+.header .nav__menu-item:hover {
   display: block;
   color: #418A1C;
   opacity: 1;
@@ -478,17 +478,17 @@ header::after {
   line-height: 1.6;
   padding-bottom: 45px;
 }
-.main__content .main__info {
+.main__info {
   display: flex;
   justify-content: flex-start;
   padding-top: 74px;
 }
-.main__content .main__info-item {
+.main__info-item {
   font-size: 43px;
   font-weight: 700;
   color: #418A1C;
 }
-.main__content .main__info-text {
+.main__info-text {
   font-size: 18px;
   font-weight: 600;
   color: #081800;
@@ -506,34 +506,71 @@ header::after {
   justify-content: space-between;
   gap: 60px;
 }
-.lungs__content .lungs__left {
+.lungs__left {
   max-width: 584px;
 }
-.lungs__content .lungs__left-title {
+.lungs__left-title {
   margin-top: 0;
   font-size: 57px;
   font-weight: 800;
   line-height: 1.4;
   margin-bottom: 60px;
 }
-.lungs__content .lungs__left-img {
+.lungs__left-img {
   background-color: #F7FFEC;
   padding: 57px 45px 55px 49px;
 }
-.lungs__content .lungs__right {
+.lungs__right {
   max-width: 436px;
 }
-.lungs__content .lungs__right-img {
+.lungs__right-img {
   background-color: #F7FFEC;
   padding: 15px 27px 2px 26px;
 }
-.lungs__content .lungs__right-text {
+.lungs__right-text {
   padding-top: 42px;
   margin-bottom: 30px;
   opacity: 0.6;
   line-height: 1.6;
 }
 
+@media (max-width: 1080px) {
+  .lungs__left-title {
+    font-size: 50px;
+  }
+  .lungs__right-text {
+    margin-top: 0;
+  }
+}
+@media (max-width: 900px) {
+  .lungs__left-title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 650px) {
+  .lungs {
+    padding: 50px 0;
+  }
+  .lungs__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    gap: 30px;
+  }
+  .lungs__left-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .lungs__right {
+    max-width: 100%;
+  }
+}
+@media (max-width: 419px) {
+  .lungs__left-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
 .initiative {
   padding-bottom: 130px;
   min-height: 637px;
@@ -745,7 +782,6 @@ header::after {
   position: absolute;
   left: 1190px;
   bottom: 0;
-  overflow-inline: hidden;
 }
 .footer__content {
   display: flex;
@@ -793,7 +829,7 @@ header::after {
   padding-bottom: 15px;
   padding-top: 3px;
 }
-.footer__box .social {
+.footer .social {
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -802,10 +838,4 @@ header::after {
   cursor: pointer;
   padding-right: 53px;
   margin: 0;
-}
-
-@media (max-width: 940px) {
-  .lungs__content__left-title {
-    font-size: 40px;
-  }
 }/*# sourceMappingURL=main.css.map */
