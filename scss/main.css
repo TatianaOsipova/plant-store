@@ -543,6 +543,9 @@ header::after {
   }
 }
 @media (max-width: 900px) {
+  .lungs__content {
+    gap: 40px;
+  }
   .lungs__left-title {
     font-size: 45px;
   }
@@ -555,9 +558,6 @@ header::after {
 @media (max-width: 768px) {
   .lungs {
     padding: 50px 0;
-  }
-  .lungs__content {
-    gap: 40px;
   }
 }
 @media (max-width: 650px) {
@@ -595,6 +595,9 @@ header::after {
   padding: 31px 65px 32px 64px;
   margin-bottom: 60px;
 }
+.initiative__left-list {
+  max-width: 464px;
+}
 .initiative .initiative__left-item {
   position: relative;
   font-size: 18px;
@@ -630,8 +633,15 @@ header::after {
   }
 }
 @media (max-width: 900px) {
-  .lungs__left-title {
+  .initiative__content {
+    gap: 40px;
+  }
+  .initiative__left-item {
+    font-size: 16px;
+  }
+  .initiative__right-title {
     font-size: 45px;
+    margin-top: 36px;
   }
 }
 .video {

@@ -14,6 +14,10 @@
             padding: 31px 65px 32px 64px;
             margin-bottom: 60px;
         }
+
+        &-list {
+            max-width: 464px;
+        }
     }
 
     .initiative__left-item {
@@ -21,7 +25,7 @@
         font-size: $fontSize;
         font-weight: $fontWeight;
         line-height: 1.6;
-        color: rgb(8,24,0, 0.6);
+        color: rgb(8, 24, 0, 0.6);
         padding-left: 66px;
 
         &::before {
@@ -55,18 +59,31 @@
 
 @media (max-width: 1080px) {
     .initiative {
-        &__right-title{
+        &__right-title {
             font-size: 50px;
         }
     }
 }
 
 @media (max-width: 900px) {
-    .lungs {
-        &__left-title {
+    .initiative {
+        &__content {
+            gap: 40px;
+        }
+
+        &__left-item {
+            font-size: 16px;
+        }
+
+        &__right-title {
             font-size: 45px;
+            padding-top: 60px;
         }
     }
 }
+
+@media (max-width: 650px) {}
+
+
 
 @import '../layout/media';

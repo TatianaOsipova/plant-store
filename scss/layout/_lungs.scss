@@ -59,6 +59,10 @@
 
 @media (max-width: 900px) {
     .lungs {
+        &__content{
+            gap: 40px;
+        }
+
         &__left-title {
             font-size: 45px;
         }
@@ -75,11 +79,7 @@
 
 @media (max-width: 768px) {
     .lungs {
-        padding: 50px 0;
-
-        &__content {
-            gap: 40px;
-        }
+        padding: 50px 0;        
     }
 }
 
