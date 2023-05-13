@@ -29,10 +29,10 @@
     &__right {
         max-width: 436px;
 
-        &-img {
-            background-color: $background;
-            padding: 15px 27px 2px 26px;
-        }
+        // &-img {
+        //     background-color: $background;
+        //     padding: 15px 27px 2px 26px;
+        // }
 
         &-text {
             padding-top: 42px;
@@ -59,6 +59,7 @@
 
 @media (max-width: 900px) {
     .lungs {
+        padding-bottom: 70px;
         &__content{
             gap: 40px;
         }
