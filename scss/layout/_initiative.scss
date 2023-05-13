@@ -68,21 +68,35 @@
 @media (max-width: 900px) {
     .initiative {
         &__content {
-            gap: 40px;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        width: 100%;
+    }
 
-        &__left-item {
-            font-size: 16px;
-        }
+    &__left-item {
+        font-size: 16px;
+    }
 
-        &__right-title {
-            font-size: 45px;
-            padding-top: 60px;
+    &__right{
+        order: -1;
+    }
+
+    &__right-title {
+        font-size: 45px;
+        padding-top: 60px;
+    }
+}
+}
+
+@media (max-width: 650px) {
+    .initiative {
+        &__content {
+            order: 1;
+
         }
     }
 }
-
-@media (max-width: 650px) {}
 
 
 

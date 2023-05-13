@@ -634,14 +634,25 @@ header::after {
 }
 @media (max-width: 900px) {
   .initiative__content {
+    display: flex;
+    flex-wrap: wrap;
     gap: 40px;
+    width: 100%;
   }
   .initiative__left-item {
     font-size: 16px;
   }
+  .initiative__right {
+    order: -1;
+  }
   .initiative__right-title {
     font-size: 45px;
-    margin-top: 36px;
+    padding-top: 60px;
+  }
+}
+@media (max-width: 650px) {
+  .initiative__content {
+    order: 1;
   }
 }
 .video {
