@@ -637,7 +637,9 @@ header::after {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    width: 100%;
+  }
+  .initiative__left {
+    max-width: 100%;
   }
   .initiative__left-item {
     font-size: 16px;
