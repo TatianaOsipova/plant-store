@@ -639,13 +639,14 @@ header::after {
     gap: 40px;
   }
   .initiative__left {
-    max-width: 100%;
+    margin: 0 auto;
   }
   .initiative__left-item {
     font-size: 16px;
   }
   .initiative__right {
     order: -1;
+    margin: 0 auto;
   }
   .initiative__right-title {
     font-size: 45px;

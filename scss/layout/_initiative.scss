@@ -74,7 +74,7 @@
     }
 
     &__left {
-        max-width: 100%;
+        margin: 0 auto;
     }
 
     &__left-item {
@@ -83,6 +83,7 @@
 
     &__right{
         order: -1;
+        margin: 0 auto;
     }
 
     &__right-title {
