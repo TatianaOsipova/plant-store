@@ -66,7 +66,8 @@
 }
 
 @media (max-width: 900px) {
-    .initiative {        
+    .initiative {
+        padding-bottom: 70px;        
         &__content {
         display: flex;
         flex-wrap: wrap;
@@ -99,6 +100,29 @@
         &__content {
             order: 1;
 
+        }
+
+        &__right-title{
+            font-size: 45px;
+        }
+    }
+}
+
+@media (max-width: 419px){
+    // .initiative__left-item{
+    //     font-size: 10px;
+    //     line-height: 1.4;
+    //     padding-left: 50px;
+    //     &::before {
+    //         width: 35px;
+    //         height: 35px;
+    //         top: 5px;
+    //     }
+    // }
+    .initiative{
+        &__right-title{
+            font-size: 35px;
+            line-height: 40px;
         }
     }
 }

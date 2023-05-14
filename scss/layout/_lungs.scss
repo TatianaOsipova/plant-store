@@ -20,14 +20,18 @@
             margin-bottom: 60px;
         }
 
-        &-img {
-            background-color: $background;
-            padding: 57px 45px 55px 49px;
-        }
+        // &-img {
+        //     background-color: $background;
+        //     padding: 57px 45px 55px 49px;
+        // }
     }
 
     &__right {
         max-width: 436px;
+
+        &-img{
+            max-height: 383px;
+        }
 
         // &-img {
         //     background-color: $background;
@@ -35,7 +39,7 @@
         // }
 
         &-text {
-            padding-top: 42px;
+            padding-top: 40px;
             margin-bottom: 30px;
             opacity: $textOpacity;
             line-height: 1.6;
@@ -60,7 +64,8 @@
 @media (max-width: 900px) {
     .lungs {
         padding-bottom: 70px;
-        &__content{
+
+        &__content {
             gap: 40px;
         }
 
@@ -80,7 +85,11 @@
 
 @media (max-width: 768px) {
     .lungs {
-        padding: 50px 0;        
+        padding: 50px 0;
+
+        &__right-img {
+            margin: 0 auto;
+        }
     }
 }
 
