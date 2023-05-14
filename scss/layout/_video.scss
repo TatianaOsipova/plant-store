@@ -7,60 +7,60 @@
         gap: 60px;
     }
 
-    .video__left {
+    &__left {
         position: relative;
-
-        .video__play {
-            content: '';
-            position: absolute;
-            z-index: 10;
-            top: 360px;
-            left: 156px;
-            border: none;
-        }
-
-        &-title {
-            margin-top: 0;
-            font-size: $titleSize;
-            font-weight: $titleWeight;
-            line-height: 1.4;
-            margin-bottom: 60px;
-        }
-
-        &-img {
-            background-color: $background;
-            padding: 48px 74px 51px 74px;
-        }
     }
 
+    &__left-title {
+        margin-top: 0;
+        font-size: $titleSize;
+        font-weight: $titleWeight;
+        line-height: 1.4;
+        margin-bottom: 60px;
+    }
 
-    .video__right {
+    &__left-img {
+        background-color: $background;
+        padding: 48px 74px 51px 74px;
+    }
+
+    &__left-play {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        top: 360px;
+        left: 156px;
+        border: none;
+    }
+
+    &__right {
         position: relative;
-        .video__play {
-            content: '';
-            background-image: url(..//..//img/play.png);
-            width: 126px;
-            height: 126px;
-            position: absolute;
-            z-index: 10;
-            top: 170px;
-            left: 202px;
-        }
+    }
 
-        &-img {
-            background-color: $background;
-            margin: 0;
-            padding: 0;
-            padding-left: 54px;
-        }
+    &__right-img {
+        background-color: $background;
+        margin: 0;
+        padding: 0;
+        padding-left: 54px;
+    }
 
-        &-text {
-            margin: 0;
-            padding-top: 40px;
-            color: $colorText;
-            opacity: $textOpacity;
-            line-height: 1.6;
-        }
+    &__right-text {
+        margin: 0;
+        padding-top: 40px;
+        color: $colorText;
+        opacity: $textOpacity;
+        line-height: 1.6;
+    }
+
+    &__right-play {
+        content: '';
+        background-image: url(..//..//img/play.png);
+        width: 126px;
+        height: 126px;
+        position: absolute;
+        z-index: 10;
+        top: 170px;
+        left: 202px;
     }
 }
 
@@ -70,16 +70,11 @@
             display: flex;
             flex-wrap: wrap;
         }
-    }
-    
-}
 
-@media (max-width: 650px) {
-    .video {
-        &__content {
-            display: flex;
-            flex-wrap: wrap;
+        &__left-title {
+            font-size: 45px;
         }
     }
-    
 }
+
+@media (max-width: 650px) {}
