@@ -73,6 +73,17 @@
 
         &__left-title {
             font-size: 45px;
+            text-align: center;
+        }
+
+        &__left-play {
+            top: 500px;
+            left: 345px;            
+            max-height: 200px;
+        }
+
+        &__right-img{
+            align-items: center;
         }
     }
 }

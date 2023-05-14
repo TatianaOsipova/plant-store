@@ -662,9 +662,6 @@ header::after {
   .initiative__content {
     order: 1;
   }
-  .initiative__right-title {
-    font-size: 45px;
-  }
 }
 @media (max-width: 419px) {
   .initiative__right-title {
@@ -680,10 +677,21 @@ header::after {
   justify-content: space-between;
   gap: 60px;
 }
-.video .video__left {
+.video__left {
   position: relative;
 }
-.video .video__left .video__play {
+.video__left-title {
+  margin-top: 0;
+  font-size: 57px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 60px;
+}
+.video__left-img {
+  background-color: #F7FFEC;
+  padding: 48px 74px 51px 74px;
+}
+.video__left-play {
   content: "";
   position: absolute;
   z-index: 10;
@@ -691,21 +699,23 @@ header::after {
   left: 156px;
   border: none;
 }
-.video .video__left-title {
-  margin-top: 0;
-  font-size: 57px;
-  font-weight: 800;
-  line-height: 1.4;
-  margin-bottom: 60px;
-}
-.video .video__left-img {
-  background-color: #F7FFEC;
-  padding: 48px 74px 51px 74px;
-}
-.video .video__right {
+.video__right {
   position: relative;
 }
-.video .video__right .video__play {
+.video__right-img {
+  background-color: #F7FFEC;
+  margin: 0;
+  padding: 0;
+  padding-left: 54px;
+}
+.video__right-text {
+  margin: 0;
+  padding-top: 40px;
+  color: #081800;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+.video__right-play {
   content: "";
   background-image: url(..//..//img/play.png);
   width: 126px;
@@ -715,24 +725,23 @@ header::after {
   top: 170px;
   left: 202px;
 }
-.video .video__right-img {
-  background-color: #F7FFEC;
-  margin: 0;
-  padding: 0;
-  padding-left: 54px;
-}
-.video .video__right-text {
-  margin: 0;
-  padding-top: 40px;
-  color: #081800;
-  opacity: 0.6;
-  line-height: 1.6;
-}
 
 @media (max-width: 900px) {
   .video__content {
     display: flex;
     flex-wrap: wrap;
+  }
+  .video__left-title {
+    font-size: 45px;
+    text-align: center;
+  }
+  .video__left-play {
+    top: 500px;
+    left: 345px;
+    max-height: 200px;
+  }
+  .video__right-img {
+    align-items: center;
   }
 }
 .great {
@@ -837,6 +846,18 @@ header::after {
   margin-top: 38px;
 }
 
+@media (max-width: 1050px) {
+  .great__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .great__right {
+    order: -1;
+  }
+  .great__right-card {
+    align-items: center;
+  }
+}
 .footer {
   background-color: #F7FFEC;
   margin: 0 auto;

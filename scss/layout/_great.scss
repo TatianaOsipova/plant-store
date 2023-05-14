@@ -120,3 +120,21 @@
         margin-top: 38px;
     }
 }
+
+@media (max-width: 1050px){
+    .great{
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__right{
+            order: -1;
+        }
+        
+        &__right-card{
+            align-items: center;
+        }
+        
+    }
+}
