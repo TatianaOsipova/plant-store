@@ -63,3 +63,23 @@
         }
     }
 }
+
+@media (max-width: 900px) {
+    .video {
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    
+}
+
+@media (max-width: 650px) {
+    .video {
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    
+}

@@ -729,6 +729,12 @@ header::after {
   line-height: 1.6;
 }
 
+@media (max-width: 900px) {
+  .video__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .great {
   padding-bottom: 130px;
 }
