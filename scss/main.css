@@ -760,21 +760,21 @@ header::after {
   min-width: 528px;
   gap: 24px;
 }
-.great__left-cards .img {
+.great .img {
   margin: 29px 0px 0px 41px;
 }
-.great__left-cards .inner {
+.great .inner {
   display: flex;
   flex-direction: column;
   padding-left: 42px;
 }
-.great__left-cards .title {
+.great .title {
   font-size: 32px;
   font-weight: 600;
   color: #081800;
   padding-top: 40px;
 }
-.great__left-cards .text {
+.great .text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
@@ -784,7 +784,7 @@ header::after {
   padding-top: 15px;
   margin-right: 35px;
 }
-.great__left-cards .price {
+.great .price {
   font-size: 24px;
   font-weight: 700;
   color: #418A1C;
@@ -792,7 +792,7 @@ header::after {
   padding-top: 20px;
   padding-bottom: 38px;
 }
-.great__left-cards .block {
+.great .block {
   display: flex;
   justify-content: space-between;
   background-color: #F7FFEC;
@@ -803,31 +803,31 @@ header::after {
   color: #101C02;
   opacity: 0.6;
 }
-.great .great__right-title {
+.great__right-title {
   font-size: 57px;
   font-weight: 800;
   padding-top: 20px;
   padding-bottom: 60px;
 }
-.great .great__right-card {
+.great__right-card {
   display: flex;
   justify-content: space-between;
   background-color: #F7FFEC;
 }
-.great .great__right-card .img {
+.great .img {
   margin: 40px 43px 33px 23px;
 }
-.great .great__right-card .inner {
+.great .inner {
   flex-direction: column;
   padding-right: 47px;
 }
-.great .great__right-card .title {
+.great .title {
   font-size: 32px;
   font-weight: 600;
   padding-top: 40px;
   color: #081800;
 }
-.great .great__right-card .text {
+.great .text {
   font-size: 14px;
   font-weight: 400;
   line-height: 29px;
@@ -835,7 +835,7 @@ header::after {
   opacity: 0.6;
   margin: 0;
 }
-.great .great__right-card .price {
+.great .price {
   font-size: 24px;
   font-weight: 700;
   color: #418A1C;
