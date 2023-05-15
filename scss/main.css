@@ -802,6 +802,7 @@ header::after {
   font-weight: 700;
   color: #101C02;
   opacity: 0.6;
+  line-height: 1.6;
 }
 .great__right-title {
   font-size: 57px;
@@ -830,7 +831,6 @@ header::after {
 .great .text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 29px;
   color: #101C02;
   opacity: 0.6;
   margin: 0;
