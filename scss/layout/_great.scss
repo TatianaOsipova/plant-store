@@ -79,7 +79,7 @@
         display: flex;
         justify-content: space-between;
         background-color: $background;
-        max-width: 528px;
+        max-width: 528px;        
     }
 
     .img {
@@ -130,8 +130,12 @@
             order: -1;
         }
 
-        &__right-cards {
-            align-items: center;
+        &__right-cards{
+            margin: 0 auto;
+        }
+
+        &__left-cards {
+            margin: 0 auto;
         }
 
     }

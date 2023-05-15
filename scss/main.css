@@ -856,7 +856,10 @@ header::after {
     order: -1;
   }
   .great__right-cards {
-    align-items: center;
+    margin: 0 auto;
+  }
+  .great__left-cards {
+    margin: 0 auto;
   }
 }
 .footer {
