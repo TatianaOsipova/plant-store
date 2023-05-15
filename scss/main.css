@@ -757,7 +757,7 @@ header::after {
   justify-content: space-between;
   flex-direction: column;
   margin-bottom: 40px;
-  min-width: 528px;
+  max-width: 528px;
   gap: 24px;
 }
 .great .img {
@@ -814,9 +814,10 @@ header::after {
   display: flex;
   justify-content: space-between;
   background-color: #F7FFEC;
+  max-width: 528px;
 }
 .great .img {
-  margin: 40px 43px 33px 23px;
+  margin: 40px 43px 0px 23px;
 }
 .great .inner {
   flex-direction: column;
@@ -854,7 +855,7 @@ header::after {
   .great__right {
     order: -1;
   }
-  .great__right-card {
+  .great__right-cards {
     align-items: center;
   }
 }

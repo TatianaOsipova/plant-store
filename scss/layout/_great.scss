@@ -13,7 +13,7 @@
         justify-content: space-between;
         flex-direction: column;
         margin-bottom: 40px;
-        min-width: 528px;
+        max-width: 528px;
         gap: 24px;
     }
 
@@ -79,10 +79,11 @@
         display: flex;
         justify-content: space-between;
         background-color: $background;
+        max-width: 528px;
     }
 
     .img {
-        margin: 40px 43px 33px 23px;
+        margin: 40px 43px 0px 23px;
     }
 
     .inner {
@@ -129,7 +130,7 @@
             order: -1;
         }
 
-        &__right-card {
+        &__right-cards {
             align-items: center;
         }
 
