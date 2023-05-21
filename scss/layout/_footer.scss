@@ -3,6 +3,13 @@
     margin: 0 auto;
     position: relative;
 
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 104px;
+        padding-bottom: 104px;
+    }
+
     &__img {
         position: absolute;
         left: 1190px;
@@ -12,69 +19,63 @@
         // transform: matrix(0.99, -0.12, -0.12, -0.99, 0, 0);
     }
 
-    &__content {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 104px;
-        padding-bottom: 104px;
-    }
-
     &__box {
         cursor: pointer;
         margin: 0;
         padding: 0;
+    }
 
-        &-list {
-            padding: 0;
-            margin: 0;
-        }
+    &__box-list {
+        padding: 0;
+        margin: 0;
+    }
 
-        &-item {
-            font-size: $fontSize;
-            font-weight: 500;
-            text-transform: uppercase;
-            color: #000A01;
-            opacity: $textOpacity;
-            line-height: 1.6;
-            padding: 0;
-            margin: 0;
-            padding: 0;
-            padding-bottom: 15px;
+    &__box-item {
+        font-size: $fontSize;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #000A01;
+        opacity: $textOpacity;
+        line-height: 1.6;
+        padding: 0;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
 
-            &:first-child {
-                font-size: $fontSize;
-                font-weight: $fontWeight;
-                text-transform: uppercase;
-                color: #000A01;
-                opacity: 1;
-            }
-
-            &:last-child {
-                padding-bottom: 0;
-            }
-        }
-
-        &-title {
+        &:first-child {
             font-size: $fontSize;
             font-weight: $fontWeight;
             text-transform: uppercase;
             color: #000A01;
             opacity: 1;
-            padding-bottom: 15px;
-            padding-top: 3px;
         }
 
-        
+        &:last-child {
+            padding-bottom: 0;
+        }
     }
 
-    .social {
-        display: flex;
-        justify-content: space-between;
-        gap: 12px;
-        padding: 0;
-        color: rgb(0, 0, 0);
-        cursor: pointer;
-        padding-right: 53px;
-        margin: 0;
+    &-title {
+        font-size: $fontSize;
+        font-weight: $fontWeight;
+        text-transform: uppercase;
+        color: #000A01;
+        opacity: 1;
+        padding-bottom: 15px;
+        padding-top: 3px;
     }
+
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding-right: 53px;
+    margin: 0;
+}
 }
