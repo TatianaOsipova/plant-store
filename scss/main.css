@@ -873,17 +873,15 @@ header::after {
   padding-top: 104px;
   padding-bottom: 104px;
 }
-.footer__img {
-  position: absolute;
-  left: 1190px;
-  bottom: 0;
-}
 .footer__box {
   cursor: pointer;
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 156px;
+  flex-wrap: wrap;
+}
+.footer__logo {
+  padding-right: 118px;
 }
 .footer__box-list {
   padding: 0;
@@ -908,17 +906,11 @@ header::after {
   color: #000A01;
   opacity: 1;
 }
-.footer__box-item:last-child {
-  padding-bottom: 0;
+.footer__box-list.second {
+  padding-right: 156px;
 }
-.footer-title {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #000A01;
-  opacity: 1;
-  padding-bottom: 15px;
-  padding-top: 3px;
+.footer__box-list.third {
+  padding-right: 132px;
 }
 .footer__social {
   display: flex;
