@@ -965,15 +965,44 @@ header::after {
 @media (max-width: 945px) {
   .footer__box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .footer__box-list:last-child {
     padding-top: 50px;
+    padding-left: 12px;
   }
 }
 @media (max-width: 708px) {
+  .footer__logo {
+    width: 200px;
+    height: 200px;
+  }
   .footer__box-item, .footer__box-item:first-child {
     font-size: 16px;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
+  }
+  .footer__box-list:last-child {
+    padding: 0;
+  }
+}
+@media (max-width: 679px) {
+  .footer__logo {
+    padding-right: 30px;
+  }
+  .footer__box-list.second {
+    padding-right: 30px;
+  }
+  .footer__box-list.third {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 570px) {
+  .footer__logo {
+    padding: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .footer__box-item {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */
