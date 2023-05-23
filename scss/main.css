@@ -1019,8 +1019,11 @@ header::after {
     height: 132px;
     margin-bottom: 30px;
   }
-  .footer__box-list.second {
+  .footer__box-list.second, .footer__box-list.third {
     margin-bottom: 30px;
+  }
+  .footer__box-list:last-child {
+    padding: 0;
   }
   .footer__box-item {
     font-size: 18px;

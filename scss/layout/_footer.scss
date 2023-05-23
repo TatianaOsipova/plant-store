@@ -212,8 +212,13 @@
             margin-bottom: 30px;
         }
 
-        &__box-list.second {
+        &__box-list.second,
+        &__box-list.third {
             margin-bottom: 30px;
+        }
+
+        &__box-list:last-child{
+            padding: 0;
         }
 
         &__box-item {
