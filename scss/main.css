@@ -879,6 +879,15 @@ header::after {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+.footer__box::after {
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background-image: url(..//../img//footer-decor.png);
 }
 .footer__logo {
   padding-right: 118px;
@@ -886,6 +895,12 @@ header::after {
 .footer__box-list {
   padding: 0;
   margin: 0;
+}
+.footer__box-list.second {
+  padding-right: 156px;
+}
+.footer__box-list.third {
+  padding-right: 132px;
 }
 .footer__box-item {
   font-size: 18px;
@@ -906,12 +921,6 @@ header::after {
   color: #000A01;
   opacity: 1;
 }
-.footer__box-list.second {
-  padding-right: 156px;
-}
-.footer__box-list.third {
-  padding-right: 132px;
-}
 .footer__social {
   display: flex;
   justify-content: space-between;
@@ -921,4 +930,14 @@ header::after {
   cursor: pointer;
   padding-right: 53px;
   margin: 0;
+}
+
+@media (max-width: 1110px) {
+  .footer__box {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__box-list:last-child {
+    padding-top: 100px;
+  }
 }/*# sourceMappingURL=main.css.map */
