@@ -178,7 +178,12 @@
 
 @media (max-width: 520px) {
     .footer {
-        &__logo img{
+        &__content {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        &__logo img {
             width: 100px;
             height: 72px;
         }
@@ -186,6 +191,51 @@
         &__box-item,
         &__box-item:first-child {
             font-size: 12px;
+        }
+
+        &__box-list:last-child {
+            padding-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        &__box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__logo img {
+            width: 160px;
+            height: 132px;
+            margin-bottom: 30px;
+        }
+
+        &__box-list.second {
+            margin-bottom: 30px;
+        }
+
+        &__box-item {
+            font-size: $fontSize;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #000A01;
+            opacity: $textOpacity;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 10px;
+
+
+            &:first-child {
+                font-size: $fontSize;
+                font-weight: $fontWeight;
+                text-transform: uppercase;
+                color: #000A01;
+                opacity: 1;
+            }
         }
 
     }
