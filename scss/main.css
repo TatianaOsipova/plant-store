@@ -935,9 +935,27 @@ header::after {
 @media (max-width: 1110px) {
   .footer__box {
     display: flex;
+    justify-content: center;
+  }
+  .footer__logo {
+    padding-right: 100px;
+  }
+  .footer__box-list.second {
+    padding-right: 100px;
+  }
+  .footer__box-list.third {
+    padding-right: 100px;
+  }
+}
+@media (max-width: 874px) {
+  .footer__box {
+    display: flex;
     justify-content: space-around;
   }
-  .footer__box-list:last-child {
-    padding-top: 100px;
+  .footer__box-list.third, .footer__box-list:last-child {
+    padding-top: 50px;
+  }
+  .footer__box-list.third {
+    padding-right: 100px;
   }
 }/*# sourceMappingURL=main.css.map */
