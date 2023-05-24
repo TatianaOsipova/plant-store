@@ -19,26 +19,17 @@
             line-height: 1.4;
             margin-bottom: 60px;
         }
-
-        // &-img {
-        //     background-color: $background;
-        //     padding: 57px 45px 55px 49px;
-        // }
     }
 
     &__right {
         max-width: 436px;
 
-        &-img{
+        &-img {
             max-height: 383px;
         }
 
-        // &-img {
-        //     background-color: $background;
-        //     padding: 15px 27px 2px 26px;
-        // }
-
         &-text {
+            font-size: $fontSize;
             padding-top: 40px;
             margin-bottom: 30px;
             opacity: $textOpacity;
@@ -117,8 +108,8 @@
 @media (max-width: 419px) {
     .lungs {
         &__left-title {
-            font-size: 35px;
-            line-height: 40px;
+            font-size: 28px;
+            line-height: 30px;
         }
     }
 }
