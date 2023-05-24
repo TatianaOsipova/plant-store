@@ -24,7 +24,7 @@
         position: relative;
         font-size: $fontSize;
         font-weight: $fontWeight;
-        line-height: 1.6;
+        line-height: 29px;
         color: rgb(8, 24, 0, 0.6);
         padding-left: 66px;
 
@@ -90,10 +90,18 @@
 
         &__left {
             margin: 0 auto;
+        } 
+        
+        &__left-list{
+            max-width: 630px;
         }
 
         &__left-item {
-            font-size: 16px;
+            font-size: 18px;
+            line-height: 26px;
+            &::before{
+                top: 6px;
+            }
         }
 
         &__right {
@@ -111,29 +119,34 @@
 
 @media (max-width: 650px) {
     .initiative {
-        &__content {
-            order: 1;
-
+        // &__content {
+        //     order: 1;
+        // }
+        &__left-item{
+            padding-left: 55px;
         }
 
-        // &__right-title{
-        //     font-size: 45px;
-        // }
+        &__right-title{
+            padding-top: 0;
+            padding-bottom: 30px;
+            font-size: 45px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .initiative{
+        padding-bottom: 30px;
+        &__left-img{
+            margin-bottom: 40px;
+        }
+        &__left-item{
+            font-size: 14px;
+        }
     }
 }
 
 @media (max-width: 419px) {
-
-    // .initiative__left-item{
-    //     font-size: 10px;
-    //     line-height: 1.4;
-    //     padding-left: 50px;
-    //     &::before {
-    //         width: 35px;
-    //         height: 35px;
-    //         top: 5px;
-    //     }
-    // }
     .initiative {
         &__right-title {
             font-size: 35px;
@@ -141,7 +154,5 @@
         }
     }
 }
-
-
 
 @import '../layout/media';

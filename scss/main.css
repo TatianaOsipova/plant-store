@@ -540,7 +540,7 @@ header::after {
 }
 @media (max-width: 900px) {
   .lungs {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
   }
   .lungs__content {
     gap: 40px;
@@ -604,7 +604,7 @@ header::after {
   position: relative;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 29px;
   color: rgba(8, 24, 0, 0.6);
   padding-left: 66px;
 }
@@ -655,8 +655,15 @@ header::after {
   .initiative__left {
     margin: 0 auto;
   }
+  .initiative__left-list {
+    max-width: 630px;
+  }
   .initiative__left-item {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .initiative__left-item::before {
+    top: 6px;
   }
   .initiative__right {
     order: -1;
@@ -669,8 +676,24 @@ header::after {
   }
 }
 @media (max-width: 650px) {
-  .initiative__content {
-    order: 1;
+  .initiative__left-item {
+    padding-left: 55px;
+  }
+  .initiative__right-title {
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: 45px;
+  }
+}
+@media (max-width: 500px) {
+  .initiative {
+    padding-bottom: 30px;
+  }
+  .initiative__left-img {
+    margin-bottom: 40px;
+  }
+  .initiative__left-item {
+    font-size: 14px;
   }
 }
 @media (max-width: 419px) {
