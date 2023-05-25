@@ -79,7 +79,7 @@
         display: flex;
         justify-content: space-between;
         background-color: $background;
-        max-width: 528px;        
+        max-width: 528px;
     }
 
     .img {
@@ -119,24 +119,34 @@
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1074px) {
     .great {
-        &__content {
-            display: flex;
-            flex-wrap: wrap;
+
+        .img {
+            margin: 40px 0px 0px 0px;
         }
 
-        &__right {
-            order: -1;
+        &__left-cards,
+        &__left-text {
+            max-width: 485px;
         }
 
-        &__right-card{
-            margin: 0 auto;
-        }
 
-        &__left-cards {
-            margin: 0 auto;
-        }
+
+        &__right {}
+
+
+        // &__right {
+        //     order: -1;
+        // }
+
+        // &__right-card{
+        //     margin: 0 auto;
+        // }
+
+        // &__left-cards {
+        //     margin: 0 auto;
+        // }
 
     }
 }

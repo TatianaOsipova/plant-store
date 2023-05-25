@@ -119,13 +119,13 @@
 
 @media (max-width: 768px){
     .initiative{
-        margin-top: -60px;
+        margin-top: -50px;
     }
-
 }
 
 @media (max-width: 650px) {
     .initiative {
+        margin: 0;
         &__left-item{
             padding-left: 55px;
         }

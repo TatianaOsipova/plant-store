@@ -681,10 +681,13 @@ header::after {
 }
 @media (max-width: 768px) {
   .initiative {
-    margin-top: -60px;
+    margin-top: -50px;
   }
 }
 @media (max-width: 650px) {
+  .initiative {
+    margin: 0;
+  }
   .initiative__left-item {
     padding-left: 55px;
   }
@@ -896,19 +899,12 @@ header::after {
   margin-top: 38px;
 }
 
-@media (max-width: 1050px) {
-  .great__content {
-    display: flex;
-    flex-wrap: wrap;
+@media (max-width: 1074px) {
+  .great .img {
+    margin: 40px 0px 0px 0px;
   }
-  .great__right {
-    order: -1;
-  }
-  .great__right-card {
-    margin: 0 auto;
-  }
-  .great__left-cards {
-    margin: 0 auto;
+  .great__left-cards, .great__left-text {
+    max-width: 485px;
   }
 }
 .footer {
