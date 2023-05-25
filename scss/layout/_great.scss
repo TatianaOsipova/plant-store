@@ -131,22 +131,15 @@
             max-width: 485px;
         }
 
-
-
-        &__right {}
-
-
-        // &__right {
-        //     order: -1;
-        // }
-
-        // &__right-card{
-        //     margin: 0 auto;
-        // }
-
-        // &__left-cards {
-        //     margin: 0 auto;
-        // }
-
+        &__right-card.img {
+            margin-bottom: 33px;
+        }
     }
+}
+
+@media (max-width: 970px){
+    .great{
+        
+    }
+
 }

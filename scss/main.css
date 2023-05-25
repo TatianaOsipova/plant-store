@@ -906,6 +906,9 @@ header::after {
   .great__left-cards, .great__left-text {
     max-width: 485px;
   }
+  .great__right-card.img {
+    margin-bottom: 33px;
+  }
 }
 .footer {
   background-color: #F7FFEC;
