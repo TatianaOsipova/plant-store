@@ -910,6 +910,37 @@ header::after {
     margin-bottom: 33px;
   }
 }
+@media (max-width: 970px) {
+  .great__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .great__left {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .great__left-cards {
+    margin: 0 auto;
+  }
+  .great__left-text {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .great__right {
+    order: -1;
+    margin: 0 auto;
+  }
+  .great__right-title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .great .btn {
+    margin-bottom: 20px;
+    margin-left: 190px;
+  }
+}
 .footer {
   background-color: #F7FFEC;
   margin: 0 auto;
