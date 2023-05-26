@@ -949,6 +949,33 @@ header::after {
     font-size: 45px;
   }
 }
+@media (max-width: 500px) {
+  .great .btn {
+    margin-left: 0;
+  }
+  .great__left-card .title, .great__right-card .title {
+    font-size: 26px;
+  }
+  .great__left-card .text, .great__right-card .text {
+    font-size: 12px;
+  }
+  .great__left-card .price, .great__right-card .price {
+    font-size: 20px;
+  }
+  .great__left-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 461px) {
+  .great__left-card .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .great__right-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .footer {
   background-color: #F7FFEC;
   margin: 0 auto;
