@@ -215,14 +215,24 @@
 
 @media (max-width: 461px) {
     .great {
-        &__left-card .block{
+        &__left-card .block {
             display: flex;
             flex-direction: column;
         }
 
-        &__right-card{
+        &__left-card .title {
+            padding-top: 0;
+        }
+
+        &__right-card {
             display: flex;
             flex-direction: column;
         }
+
+        .img {
+            margin-bottom: 0;
+        }
+
+
     }
 }
