@@ -176,3 +176,12 @@
     }
 
 }
+
+@media (max-width: 650px){
+    .great {
+        &__right-title{
+            font-size: 45px;
+        }
+    }
+
+}

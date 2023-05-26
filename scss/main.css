@@ -941,6 +941,11 @@ header::after {
     margin-left: 190px;
   }
 }
+@media (max-width: 650px) {
+  .great__right-title {
+    font-size: 45px;
+  }
+}
 .footer {
   background-color: #F7FFEC;
   margin: 0 auto;
