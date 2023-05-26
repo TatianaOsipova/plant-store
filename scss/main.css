@@ -942,6 +942,9 @@ header::after {
   }
 }
 @media (max-width: 650px) {
+  .great {
+    padding-bottom: 70px;
+  }
   .great__right-title {
     font-size: 45px;
   }
