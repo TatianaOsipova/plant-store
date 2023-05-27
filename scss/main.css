@@ -978,6 +978,10 @@ header::after {
     display: flex;
     flex-direction: column;
   }
+  .great__right-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
   .great .img {
     margin-bottom: 0;
   }
